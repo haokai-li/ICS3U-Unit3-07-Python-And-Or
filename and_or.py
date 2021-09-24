@@ -20,10 +20,10 @@ def main():
             print("You are accepted to date my grandchild.")
         elif user_number < 25:
             # output
-            print("You are too young!.")
+            print("You are too young!")
         else:
             # output
-            print("You are too old!.")
+            print("You are too old!")
     except Exception:
         # output
         print("{} is not a valid input.".format(user_string))
